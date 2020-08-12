@@ -2,14 +2,14 @@
 //  QuoteTableViewController.swift
 //  InspoQuotes
 //
-//  Created by Angela Yu on 18/08/2018.
-//  Copyright © 2018 London App Brewery. All rights reserved.
+//  Created by Jeremy Rufo
+//  Copyright © 2020 JRufo. All rights reserved.
 //
 
 import UIKit
 
 class QuoteTableViewController: UITableViewController {
-    
+
     var quotesToShow = [
         "Our greatest glory is not in never falling, but in rising every time we fall. — Confucius",
         "All our dreams can come true, if we have the courage to pursue them. – Walt Disney",
@@ -18,7 +18,7 @@ class QuoteTableViewController: UITableViewController {
         "Success is not final, failure is not fatal: it is the courage to continue that counts. – Winston Churchill",
         "Hardships often prepare ordinary people for an extraordinary destiny. – C.S. Lewis"
     ]
-    
+
     let premiumQuotes = [
         "Believe in yourself. You are braver than you think, more talented than you know, and capable of more than you imagine. ― Roy T. Bennett",
         "I learned that courage was not the absence of fear, but the triumph over it. The brave man is not he who does not feel afraid, but he who conquers that fear. – Nelson Mandela",
@@ -110,8 +110,6 @@ class QuoteTableViewController: UITableViewController {
     
     
     @IBAction func restorePressed(_ sender: UIBarButtonItem) {
-        
+
     }
-
-
 }
